@@ -2,7 +2,7 @@
 
 module k8s.io/apiserver
 
-go 1.13
+go 1.14
 
 require (
 	github.com/coreos/go-oidc v2.1.0+incompatible
@@ -42,10 +42,10 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/square/go-jose.v2 v2.2.2
 	gopkg.in/yaml.v2 v2.2.8
-	k8s.io/api v0.0.0-20200619195634-beb8c24427d7
-	k8s.io/apimachinery v0.0.0-20200619195453-1be0d88b587c
-	k8s.io/client-go v0.0.0-20200623080228-524b37633880
-	k8s.io/component-base v0.0.0-20200623080824-d3f1edfeae35
+	k8s.io/api v0.0.0
+	k8s.io/apimachinery v0.0.0
+	k8s.io/client-go v0.0.0
+	k8s.io/component-base v0.0.0
 	k8s.io/klog/v2 v2.1.0
 	k8s.io/kube-openapi v0.0.0-20200427153329-656914f816f9
 	k8s.io/utils v0.0.0-20200619165400-6e3d28b6ed19
@@ -55,10 +55,10 @@ require (
 )
 
 replace (
-	golang.org/x/sys => golang.org/x/sys v0.0.0-20190813064441-fde4db37ae7a // pinned to release-branch.go1.13
-	golang.org/x/tools => golang.org/x/tools v0.0.0-20190821162956-65e3620a7ae7 // pinned to release-branch.go1.13
-	k8s.io/api => k8s.io/api v0.0.0-20200619195634-beb8c24427d7
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200619195453-1be0d88b587c
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200623080228-524b37633880
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200623080824-d3f1edfeae35
+	golang.org/x/sys => golang.org/x/sys v0.0.0-20200201011859-915c9c3d4ccf // pinned to release-branch.go1.14-std
+	k8s.io/api => ../api
+	k8s.io/apimachinery => ../apimachinery
+	k8s.io/apiserver => ../apiserver
+	k8s.io/client-go => ../client-go
+	k8s.io/component-base => ../component-base
 )
