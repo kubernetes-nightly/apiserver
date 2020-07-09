@@ -2,7 +2,7 @@
 
 module k8s.io/apiserver
 
-go 1.14
+go 1.13
 
 require (
 	github.com/coreos/go-oidc v2.1.0+incompatible
@@ -41,10 +41,10 @@ require (
 	gopkg.in/natefinch/lumberjack.v2 v2.0.0
 	gopkg.in/square/go-jose.v2 v2.2.2
 	gopkg.in/yaml.v2 v2.2.8
-	k8s.io/api v0.0.0-20200709080459-0775810fdc84
-	k8s.io/apimachinery v0.0.0-20200709075906-1f536d5cd8a8
-	k8s.io/client-go v0.0.0-20200709081215-765c4d818f03
-	k8s.io/component-base v0.0.0-20200709083001-29f54da10668
+	k8s.io/api v0.0.0-20200709080506-99a1d31b47e0
+	k8s.io/apimachinery v0.0.0-20200709075907-2de726aac126
+	k8s.io/client-go v0.0.0-20200709081227-87921d038b04
+	k8s.io/component-base v0.0.0-20200709083005-24fec59c0746
 	k8s.io/klog/v2 v2.2.0
 	k8s.io/kube-openapi v0.0.0-20200427153329-656914f816f9
 	k8s.io/utils v0.0.0-20200619165400-6e3d28b6ed19
@@ -54,8 +54,8 @@ require (
 )
 
 replace (
-	k8s.io/api => k8s.io/api v0.0.0-20200706140252-d15cf1e7d803
-	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200709075906-1f536d5cd8a8
-	k8s.io/client-go => k8s.io/client-go v0.0.0-20200703120315-747047d38437
-	k8s.io/component-base => k8s.io/component-base v0.0.0-20200709083001-29f54da10668
+	k8s.io/api => k8s.io/api v0.0.0-20200709080506-99a1d31b47e0
+	k8s.io/apimachinery => k8s.io/apimachinery v0.0.0-20200709075907-2de726aac126
+	k8s.io/client-go => k8s.io/client-go v0.0.0-20200709081227-87921d038b04
+	k8s.io/component-base => k8s.io/component-base v0.0.0-20200709083005-24fec59c0746
 )
